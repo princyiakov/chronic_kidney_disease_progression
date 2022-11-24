@@ -1,4 +1,6 @@
 # Chroninc Kidney Disease Progression 
+<img alt="chronic-kidney-disease-stages" src="https://raw.githubusercontent.com/princyiakov/chronic_kidney_disease_progression/main/images/chronic-kidney-disease-stages.jpeg">
+
 Chronic kidney disease (CKD) is a condition in which your kidneys gradually lose their ability to help your body remove
 waste and fluid from your blood. When this happens, harmful wastes and fluids begin to build up in your body, making
 you feel unwell and out of balance. Although chronic kidney disease (CKD) is not curable, treatment can help slow its 
