@@ -13,10 +13,9 @@ progression, control symptoms and enable you to live a full life.
   - [Stage Progression](#stage-progression)
 - [How Were We Able To Predict The Progression](#how-were-we-able-to-predict-the-progression)
   - [Approach I Machine Learning ](#approach-i-machine-learning)
-    - [Data Cleaning](#data-cleaning)
-    - [Handling Imbalanced Data](#handling-imbalanced-data)
     - [Feature Engineering](#feature-engineering)
     - [Feature Selection](#feature-selection)
+    - [Handling Imbalanced Data](#handling-imbalanced-data)
     - [Model Selection](#model-selection)
   - [Approach II Survival Analysis ](#approach-ii-survival-analysis)
     
@@ -25,7 +24,7 @@ progression, control symptoms and enable you to live a full life.
 <!-- tocstop -->
 
 ## Our Goal
-Using Patiesnt past records we will predict whether a patient will progress in CKD staging or not.
+Using Patient past records we will predict whether a patient will progress in CKD staging or not.
 
 ## Notebook File
 
@@ -53,3 +52,11 @@ We will be understanding the patients demographics based on Gender, Age, Race an
 #### Stage Progression According To Race
 <img alt="stageprogressionrace" src="https://raw.githubusercontent.com/princyiakov/chronic_kidney_disease_progression/main/images/stageprogressrace.png">
 
+## How Were We Able To Predict The Progression
+### Approach I Machine Learning
+Since I was trying Survival Analysis first time since college, I wanted to first check how the data reacts with the 
+machine learning and explored various models.
+
+### Feature Engineering
+- For blood works and blood pressure: 
+  - For blood works like glucose, creatine, systolic and diastolic blood pressure, I took mean value of the obserations and calculated the duration based on first and last day of observation
