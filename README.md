@@ -3,18 +3,18 @@
 
 <!-- toc -->
 
-- [What is Chronic Kidney  Disease](#what-is-chronic-kidney-disease)
-  - [Our Goal](#our-goal)
-  - [Notebook File](#notebook-file)
-  - [Patient Demographics](#patient_demographics)
-  - [How Were We Able To Predict The Progression](#how-were-we-able-to-predict-the-progression)
-    - [Approach I Machine Learning ](#approach-i-machine-learning)
-      - [Data Cleaning](#data-cleaning)
-      - [Handling Imbalanced Data](#handling-imbalanced-data)
-      - [Feature Engineering](#feature-engineering)
-      - [Feature Selection](#feature-selection)
-      - [Model Selection](#model-selection)
-    - [Approach II Survival Analysis ](#approach-ii-survival-analysis)
+- [What is Chronic Kidney Disease](#what-is-chronic-kidney-disease)
+- [Our Goal](#our-goal)
+- [Notebook File](#notebook-file)
+- [Patient Demographics](#patient_demographics)
+- [How Were We Able To Predict The Progression](#how-were-we-able-to-predict-the-progression)
+  - [Approach I Machine Learning ](#approach-i-machine-learning)
+    - [Data Cleaning](#data-cleaning)
+    - [Handling Imbalanced Data](#handling-imbalanced-data)
+    - [Feature Engineering](#feature-engineering)
+    - [Feature Selection](#feature-selection)
+    - [Model Selection](#model-selection)
+  - [Approach II Survival Analysis ](#approach-ii-survival-analysis)
     
 - [Evaluation](#evaluation)
   - [Giskard](#giskard)
@@ -32,9 +32,9 @@ help filter waste, one is not a “back-up” for the other. They work in unison
 diagnosed with chronic kidney disease (CKD), it means that both of your kidneys are affected and cannot properly 
 filter waste and fluid from your body.
 
-### Our Goal
+## Our Goal
 Using Patiesnt past records we will predict whether a patient will progress in CKD staging or not.
 
-### Notebook File
+## Notebook File
 
 Here is the link to our [notebook](https://github.com/princyiakov/chronic_kidney_disease_progression/blob/main/chronic_kidkey_disease_progression.ipynb)
