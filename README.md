@@ -19,7 +19,7 @@ progression, control symptoms and enable you to live a full life.
     - [Feature Selection](#feature-selection)
     - [Handling Imbalanced Data](#handling-imbalanced-data)
     - [Model Evaluation and Selection](#model-evaluation-and-selection)
-  - [Approach II Survival Analysis ](#approach-ii-survival-analysis)
+  - [Approach II Survival Analysis](#approach-ii-survival-analysis)
     
 - [Evaluation](#evaluation)
   - [Giskard](#giskard)
@@ -123,3 +123,27 @@ I wanted to see how my model works realtime by changing the data, so I used Gisk
 #### Here is a list of all tests
 <img alt="alltests" src="https://raw.githubusercontent.com/princyiakov/chronic_kidney_disease_progression/main/images/alltests.png">
 
+### Approach II Survival Analysis
+#### Gender
+Using Kaplan Meier Estimator, we could see the survival curve based on gender 
+<img alt="gendersa" src="https://raw.githubusercontent.com/princyiakov/chronic_kidney_disease_progression/main/images/gendersa.png">
+
+##### And the Log rank test with  p-value  0.02 which is less than 0.05, helped me conclude that we can reject the null hypothesis and conclude that gender of a person plays a significant role in the progression of CKD
+According to the curve male will progress in the staged of CKD more than females
+#### Race 
+<img alt="racesqa" src="https://raw.githubusercontent.com/princyiakov/chronic_kidney_disease_progression/main/images/racesa.png">
+
+##### In log rank test, the p-value of 0.05 helped us conclude that we can reject the null hypothesis and conclude that race of a person plays a significant role in the progression of CKD
+According to the curve  Hispanics progress in CKD stages more as compared to other races
+
+#### Cox Regression helped me understand the relation with progression and other variables better 
+<img alt="coxop" src="https://raw.githubusercontent.com/princyiakov/chronic_kidney_disease_progression/main/images/coxop.png">
+<img alt="coxplot" src="https://raw.githubusercontent.com/princyiakov/chronic_kidney_disease_progression/main/images/coxplot.png">
+
+##### Here are the conclusions of the readings
+- Being Hispanic increases your chances of progression in CKD stages are 734%
+- Males have 59% higher chances of progressing as compared to female
+- Glucose level plays an important role. Higher glucose level leads to 8% chances of progression
+- Higher creatine level leads to 7% chance of progressing in CKD stages
+- Higher SBP leads to 2% chances of progressing in CKD Stages
+- Higher HGB levels decreses the chances of progressing by 3%
