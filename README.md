@@ -59,4 +59,6 @@ machine learning and explored various models.
 
 ### Feature Engineering
 - For blood works and blood pressure: 
-  - For blood works like glucose, creatine, systolic and diastolic blood pressure, I took mean value of the obserations and calculated the duration based on first and last day of observation
+  - For blood works like glucose, creatine, systolic and diastolic blood pressure, I took mean value of the observations and calculated the duration based on first and last day of observation
+- For medicines:
+  - I grouped the patient ids and medicines and calculated the total dose by multiplying each mdeicines doses and their start and stop date difference and provided a summation of the doses based on each medicine 
