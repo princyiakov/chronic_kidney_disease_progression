@@ -10,6 +10,7 @@ progression, control symptoms and enable you to live a full life.
 - [Patient Demographics](#patient_demographics)
   - [Gender](#gender)
   - [Age](#age)
+  - [Stage Progression](#stage-progression)
 - [How Were We Able To Predict The Progression](#how-were-we-able-to-predict-the-progression)
   - [Approach I Machine Learning ](#approach-i-machine-learning)
     - [Data Cleaning](#data-cleaning)
@@ -31,7 +32,7 @@ Using Patiesnt past records we will predict whether a patient will progress in C
 Here is the link to our [notebook](https://github.com/princyiakov/chronic_kidney_disease_progression/blob/main/chronic_kidkey_disease_progression.ipynb)
 
 ## Patient Demographics
-We will be understanding the patients demographics based on Gender, Race, Age, and Stage Progression
+We will be understanding the patients demographics based on Gender, Age, Race and Stage Progression
 
 ### Gender
 <img alt="genderdistribution" src="https://raw.githubusercontent.com/princyiakov/chronic_kidney_disease_progression/main/images/gender.png">
@@ -41,3 +42,14 @@ We will be understanding the patients demographics based on Gender, Race, Age, a
 
 ### Race
 <img alt="racedistribution" src="https://raw.githubusercontent.com/princyiakov/chronic_kidney_disease_progression/main/images/race.png">
+
+### Stage Progression
+#### Overall Stage Progression
+<img alt="stageprogression" src="https://raw.githubusercontent.com/princyiakov/chronic_kidney_disease_progression/main/images/stageprogress.png">
+
+#### Stage Progression According To Gender
+<img alt="stageprogressiongender" src="https://raw.githubusercontent.com/princyiakov/chronic_kidney_disease_progression/main/images/stageprogressgender.png">
+
+#### Stage Progression According To Race
+<img alt="stageprogressionrace" src="https://raw.githubusercontent.com/princyiakov/chronic_kidney_disease_progression/main/images/stageprogressrace.png">
+
