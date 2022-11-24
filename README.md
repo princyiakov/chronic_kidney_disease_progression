@@ -18,7 +18,7 @@ progression, control symptoms and enable you to live a full life.
     - [Feature Engineering](#feature-engineering)
     - [Feature Selection](#feature-selection)
     - [Handling Imbalanced Data](#handling-imbalanced-data)
-    - [Model Selection](#model-selection)
+    - [Model Evaluation and Selection](#model-evaluation-and-selection)
   - [Approach II Survival Analysis ](#approach-ii-survival-analysis)
     
 - [Evaluation](#evaluation)
@@ -63,4 +63,43 @@ machine learning and explored various models.
 - For blood works and blood pressure: 
   - For blood works like glucose, creatine, systolic and diastolic blood pressure, I took mean value of the observations and calculated the duration based on first and last day of observation
 - For medicines:
-  - I grouped the patient ids and medicines and calculated the total dose by multiplying each mdeicines doses and their start and stop date difference and provided a summation of the doses based on each medicine 
+  - I grouped the patient ids and medicines and calculated the total dose by multiplying each mdeicines doses and their start and stop date difference and provided a summation of the doses based on each medicine
+
+### Feature Selection
+I used ExtraTreesClassifier to find the features holding the maximum importance.
+<img alt="featureimp" src="https://raw.githubusercontent.com/princyiakov/chronic_kidney_disease_progression/main/images/featureimp.png">
+
+HeatMap Representation : 
+<img alt="heatmap" src="https://raw.githubusercontent.com/princyiakov/chronic_kidney_disease_progression/main/images/heatmap.png">
+
+### Handling Imbalanced Data
+I used SMOTE to improve the imbalanced data
+
+### Model Evaluation and Selection
+
+The following were the  performance metrics of the models
+
+----Logistic Regression Model-----
+Accuracy: 0.6222222222222222
+Precision:  0.47619047619047616
+Recall:  0.625
+F1 Score:  0.5405405405405405
+----XGBoost Model-----
+Accuracy: 0.7111111111111111
+Precision:  0.6
+Recall:  0.5625
+F1 Score:  0.5806451612903225
+----Random Forest Model-----
+Accuracy: 0.6555555555555556
+Precision:  0.5185185185185185
+Recall:  0.4375
+F1 Score:  0.47457627118644063
+----KNN Model-----
+Accuracy: 0.6555555555555556
+Precision:  0.5135135135135135
+Recall:  0.59375
+F1 Score:  0.5507246376811593
+
+#### Evaluation using Giskard
+I wanted to see how my model works realtime by changing the data, so I used Giskard for inspection. Here is a speak peak of my exploration.
+<img alt="giskardgif" src="https://raw.githubusercontent.com/princyiakov/chronic_kidney_disease_progression/main/images/giskardinspect.gif">
