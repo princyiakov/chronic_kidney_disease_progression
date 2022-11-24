@@ -37,4 +37,7 @@ We will be understanding the patients demographics based on Gender, Race, Age, a
 <img alt="genderdistribution" src="https://raw.githubusercontent.com/princyiakov/chronic_kidney_disease_progression/main/images/gender.png">
 
 ### Age
-<img alt="genderdistribution" src="https://raw.githubusercontent.com/princyiakov/chronic_kidney_disease_progression/main/images/age.png">
+<img alt="agedistribution" src="https://raw.githubusercontent.com/princyiakov/chronic_kidney_disease_progression/main/images/age.png">
+
+### Race
+<img alt="racedistribution" src="https://raw.githubusercontent.com/princyiakov/chronic_kidney_disease_progression/main/images/race.png">
