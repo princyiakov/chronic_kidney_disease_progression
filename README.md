@@ -79,27 +79,47 @@ I used SMOTE to improve the imbalanced data
 
 The following were the  performance metrics of the models
 
-----Logistic Regression Model-----
-Accuracy: 0.6222222222222222
-Precision:  0.47619047619047616
-Recall:  0.625
-F1 Score:  0.5405405405405405
-----XGBoost Model-----
-Accuracy: 0.7111111111111111
-Precision:  0.6
-Recall:  0.5625
-F1 Score:  0.5806451612903225
-----Random Forest Model-----
-Accuracy: 0.6555555555555556
-Precision:  0.5185185185185185
-Recall:  0.4375
-F1 Score:  0.47457627118644063
-----KNN Model-----
-Accuracy: 0.6555555555555556
-Precision:  0.5135135135135135
-Recall:  0.59375
-F1 Score:  0.5507246376811593
 
-#### Evaluation using Giskard
+
+#### ------------Logistic Regression Model-----------------
+| Performance metrics | Score               |
+|---------------------|---------------------|
+| Accuracy            | 0.6222222222222222  |
+| Precision           | 0.47619047619047616 |
+| Recall              | 0.625               |
+| F1 Score:           | 0.5405405405405405  |
+
+#### -------------------XGBoost Model-----------------------------
+| Performance metrics | Score                 |
+|---------------------|-----------------------|
+| Accuracy            | 0.7111111111111111    |
+| Precision           | 0.6                   |
+| Recall              | 0.5625                |
+| F1 Score            | 0.5806451612903225    |
+
+#### ------------Random Forest Model-------------
+| Performance metrics | Score               |
+|---------------------|---------------------|
+| Accuracy            | 0.6555555555555556  |
+| Precision           | 0.5185185185185185  |
+| Recall              | 0.4375              |
+| F1 Score            | 0.47457627118644063 |
+
+#### --------------------KNN Model-----------------------------
+| Performance metrics | Score              |
+|---------------------|--------------------|
+| Accuracy            | 0.6555555555555556 |
+| Precision           | 0.5135135135135135 |
+| Recall              | 0.59375            |
+| F1 Score            | 0.5507246376811593 |
+
+### Evaluation using Giskard
 I wanted to see how my model works realtime by changing the data, so I used Giskard for inspection. Here is a speak peak of my exploration.
-![giskardinspect](https://raw.githubusercontent.com/princyiakov/chronic_kidney_disease_progression/main/images/giskardinspect.gif)
+![giskardinspect](https://raw.githubusercontent.com/princyiakov/chronic_kidney_disease_progression/main/images/giakardinspect.gif)
+
+#### Do you want to check if Gender changes the prediction for whole dataset? Metamorphic tests to help us in the process
+<img alt="metamorphic" src="https://raw.githubusercontent.com/princyiakov/chronic_kidney_disease_progression/main/images/metamorphic.png">
+
+#### Here is a list of all tests
+<img alt="alltests" src="https://raw.githubusercontent.com/princyiakov/chronic_kidney_disease_progression/main/images/alltests.png">
+
