@@ -1,9 +1,10 @@
 # Chroninc Kidney Disease Progression 
-
+Chronic kidney disease (CKD) is a condition in which your kidneys gradually lose their ability to help your body remove
+waste and fluid from your blood. When this happens, harmful wastes and fluids begin to build up in your body, making
+you feel unwell and out of balance. Although chronic kidney disease (CKD) is not curable, treatment can help slow its 
+progression, control symptoms and enable you to live a full life.
 
 <!-- toc -->
-
-- [What is Chronic Kidney Disease](#what-is-chronic-kidney-disease)
 - [Our Goal](#our-goal)
 - [Notebook File](#notebook-file)
 - [Patient Demographics](#patient_demographics)
@@ -22,10 +23,7 @@
 
 ## What is Chronic Kidney  Disease
 
-Chronic kidney disease (CKD) is a condition in which your kidneys gradually lose their ability to help your body remove
-waste and fluid from your blood. When this happens, harmful wastes and fluids begin to build up in your body, making
-you feel unwell and out of balance. Although chronic kidney disease (CKD) is not curable, treatment can help slow its 
-progression, control symptoms and enable you to live a full life.
+
 
 Chronic kidney disease (CKD) affects both of your kidneys at the same time. While your body gives you two kidneys to 
 help filter waste, one is not a “back-up” for the other. They work in unison to cleanse your body. When you are 
