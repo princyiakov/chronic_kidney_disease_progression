@@ -33,5 +33,5 @@ Here is the link to our [notebook](https://github.com/princyiakov/chronic_kidney
 We will be understanding the patients demographics based on Gender, Race, Age, and Stage Progression
 
 ### Gender
-<img alt="genderdistribution" src="https://raw.githubusercontent.com/princyiakov/chronic_kidney_disease_progression/main/readme/gender.png">
+<img alt="genderdistribution" src="https://raw.githubusercontent.com/princyiakov/chronic_kidney_disease_progression/main/images/gender.png">
 
