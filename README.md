@@ -118,7 +118,7 @@ I wanted to see how my model works realtime by changing the data, so I used Gisk
 ![giskardinspect](https://raw.githubusercontent.com/princyiakov/chronic_kidney_disease_progression/main/images/giakardinspect.gif)
 
 #### Do you want to check if Gender changes the prediction for whole dataset? Metamorphic tests to help us in the process
-<img alt="metamorphic" src="https://raw.githubusercontent.com/princyiakov/chronic_kidney_disease_progression/main/images/metamorphic.png">
+<img alt="metamorphic" src="https://raw.githubusercontent.com/princyiakov/chronic_kidney_disease_progression/main/images/metamorphictest.png">
 
 #### Here is a list of all tests
 <img alt="alltests" src="https://raw.githubusercontent.com/princyiakov/chronic_kidney_disease_progression/main/images/alltests.png">
