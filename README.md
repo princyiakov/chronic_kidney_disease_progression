@@ -21,15 +21,6 @@ progression, control symptoms and enable you to live a full life.
   - [Giskard](#giskard)
 <!-- tocstop -->
 
-## What is Chronic Kidney  Disease
-
-
-
-Chronic kidney disease (CKD) affects both of your kidneys at the same time. While your body gives you two kidneys to 
-help filter waste, one is not a “back-up” for the other. They work in unison to cleanse your body. When you are 
-diagnosed with chronic kidney disease (CKD), it means that both of your kidneys are affected and cannot properly 
-filter waste and fluid from your body.
-
 ## Our Goal
 Using Patiesnt past records we will predict whether a patient will progress in CKD staging or not.
 
