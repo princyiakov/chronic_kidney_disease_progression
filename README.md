@@ -9,6 +9,7 @@ progression, control symptoms and enable you to live a full life.
 - [Notebook File](#notebook-file)
 - [Patient Demographics](#patient_demographics)
   - [Gender](#gender)
+  - [Age](#age)
 - [How Were We Able To Predict The Progression](#how-were-we-able-to-predict-the-progression)
   - [Approach I Machine Learning ](#approach-i-machine-learning)
     - [Data Cleaning](#data-cleaning)
@@ -35,3 +36,5 @@ We will be understanding the patients demographics based on Gender, Race, Age, a
 ### Gender
 <img alt="genderdistribution" src="https://raw.githubusercontent.com/princyiakov/chronic_kidney_disease_progression/main/images/gender.png">
 
+### Age
+<img alt="genderdistribution" src="https://raw.githubusercontent.com/princyiakov/chronic_kidney_disease_progression/main/images/age.png">
