@@ -102,4 +102,4 @@ F1 Score:  0.5507246376811593
 
 #### Evaluation using Giskard
 I wanted to see how my model works realtime by changing the data, so I used Giskard for inspection. Here is a speak peak of my exploration.
-<img alt="giskardgif" src="https://raw.githubusercontent.com/princyiakov/chronic_kidney_disease_progression/main/images/giskardinspect.gif">
+![giskardinspect](https://raw.githubusercontent.com/princyiakov/chronic_kidney_disease_progression/main/images/giskardinspect.gif)
