@@ -1,4 +1,4 @@
-# Chroninc Kidney Disease Progression 
+# Chronic Kidney Disease Progression 
 <img alt="chronic-kidney-disease-stages" src="https://raw.githubusercontent.com/princyiakov/chronic_kidney_disease_progression/main/images/chronic-kidney-disease-stages.jpeg">
 
 Chronic kidney disease (CKD) is a condition in which your kidneys gradually lose their ability to help your body remove
@@ -21,8 +21,7 @@ progression, control symptoms and enable you to live a full life.
     - [Model Evaluation and Selection](#model-evaluation-and-selection)
   - [Approach II Survival Analysis](#approach-ii-survival-analysis)
     
-- [Evaluation](#evaluation)
-  - [Giskard](#giskard)
+- [Evaluation using Giskard](#evaluation-using-giskard)
 <!-- tocstop -->
 
 ## Our Goal
@@ -63,7 +62,7 @@ machine learning and explored various models.
 - For blood works and blood pressure: 
   - For blood works like glucose, creatine, systolic and diastolic blood pressure, I took mean value of the observations and calculated the duration based on first and last day of observation
 - For medicines:
-  - I grouped the patient ids and medicines and calculated the total dose by multiplying each mdeicines doses and their start and stop date difference and provided a summation of the doses based on each medicine
+  - I grouped the patient ids and medicines and calculated the total dose by multiplying each medicines doses and their start and stop date difference and provided a summation of the doses based on each medicine
 
 ### Feature Selection
 I used ExtraTreesClassifier to find the features holding the maximum importance.
@@ -146,4 +145,4 @@ According to the curve  Hispanics progress in CKD stages more as compared to oth
 - Glucose level plays an important role. Higher glucose level leads to 8% chances of progression
 - Higher creatine level leads to 7% chance of progressing in CKD stages
 - Higher SBP leads to 2% chances of progressing in CKD Stages
-- Higher HGB levels decreses the chances of progressing by 3%
+- Higher HGB levels decreases the chances of progressing by 3%
